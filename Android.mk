@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gta4xlwifi gta4xl,$(TARGET_DEVICE)),)
+ifneq ($(filter a21sks a21snsxx,$(TARGET_DEVICE)),)
 
 endif
